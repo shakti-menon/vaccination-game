@@ -5,11 +5,11 @@ Data for Figs 2-4 of the manuscript:
 Sharma A, Menon SN, Sasidevan V, Sinha S (2019) Epidemic prevalence information on social networks can mediate emergent collective outcomes in voluntary vaccine schemes. PLoS Comput Biol 15(5): e1006977. 
 https://doi.org/10.1371/journal.pcbi.1006977
 
-The data is in the form of .mat files (which can be opened in MATLAB) available in the following folders.
+The data is in the form of .mat files (which can be opened in MATLAB) available in separate folders.
 
 [Note: Data for the empirical social newtorks used in Figures 2(a-b) and 3(d) are openly accessible as part of the published article: Banerjee, A., Chandrasekhar, A. G., Duflo, E. and Jackson, M. O. (2013). The diffusion of microfinance. Science, 341(6144), 1236498, DOI: 10.1126/science.1236498 and can be directly downloaded from https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21538]
 
-Folder Figure_2 contains
+Folder **Figure_2** contains
 
 [1] data for Fig 2(a) and Fig 2(c) left panel ("TimeSeries_Vill55_alpha0.mat")
 
@@ -23,7 +23,7 @@ This file contains the matrix "S_rec" of size 924x6, which corresponds to time s
 
 This folder contains files for simulations on the village network 55 for the cases alpha = 0 and alpha = 1. The file names are "vill55_qX_alphaY.mat" where X is the value of \beta and Y is the value of alpha (0 or 1). Each .mat file contains a matrix "datavn" of size 2x1000. This contains data for inf_\infty and vac_\infty for one value of \beta, for 1000 simulation runs.
 
-Folder Figure_3 contains
+Folder **Figure_3** contains
 
 [1] data for Fig 3(a) left panel ("TimeSeries_ER_alpha0.mat")
 
@@ -45,7 +45,7 @@ For the case of ER networks, the file names are "glsp_qX_kY_alphaZ.mat", where X
 
 For the case of village networks, the file names are "villX_qY_alphaZ.mat", where X is the village id, Y is the value of \beta and Z is the value of alpha (0 or 1). Each .mat file contains a matrix "datavn" of size 2x1000. This contains data for inf_\infty and vac_\infty for one value of \beta, for 1000 simulation runs.
 
-Folder Figure_4 contains
+Folder **Figure_4** contains
 
 [1] data for Fig 4(a) (folder "ER_All_system_sizes")
 
