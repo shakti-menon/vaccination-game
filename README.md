@@ -1,13 +1,13 @@
 # vaccination-game
 
-Data for Figs 2-4 of the manuscript:
+This repository contains data for Figs 2-4 of the manuscript:
 
-Sharma A, Menon SN, Sasidevan V, Sinha S (2019) Epidemic prevalence information on social networks can mediate emergent collective outcomes in voluntary vaccine schemes. PLoS Comput Biol 15(5): e1006977. 
-https://doi.org/10.1371/journal.pcbi.1006977
+> Sharma A, Menon SN, Sasidevan V, Sinha S (2019) Epidemic prevalence information on social networks can mediate emergent collective outcomes in voluntary vaccine schemes. PLoS Comput Biol 15(5): e1006977. 
+> https://doi.org/10.1371/journal.pcbi.1006977
 
 The data is in the form of .mat files (which can be opened in MATLAB) available in separate folders.
 
-[Note: Data for the empirical social newtorks used in Figures 2(a-b) and 3(d) are openly accessible as part of the published article: Banerjee, A., Chandrasekhar, A. G., Duflo, E. and Jackson, M. O. (2013). The diffusion of microfinance. Science, 341(6144), 1236498, DOI: 10.1126/science.1236498 and can be directly downloaded from https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21538]
+*Note*: Data for the empirical social newtorks used in Figures 2(a-b) and 3(d) are openly accessible as part of the published article: Banerjee, A., Chandrasekhar, A. G., Duflo, E. and Jackson, M. O. (2013). The diffusion of microfinance. Science, 341(6144), 1236498, DOI: 10.1126/science.1236498 and can be directly downloaded from https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21538
 
 Folder **Figure_2** contains
 
@@ -49,8 +49,8 @@ Folder **Figure_4** contains
 
 [1] data for Fig 4(a) (folder "ER_All_system_sizes")
 
-This folder contains simulations on ER network for a range of system sizes (multiples of 1024), for the case of local and global information. The file names are "Xn_alphaY_qZ.mat", where X is the multiple of 1024 that specifies the system size (e.g. X="02" corresponds to a network of size 2*1024) and Y is the value of alpha (0 or 1) and Z is the value of \beta. Each .mat file contains a matrix "dataq" of size 2x1000. This contains data for inf_\infty and vac_\infty for one value of \beta, for 1000 simulation runs.
+This folder contains simulations on ER network for a range of system sizes (multiples of 1024), for the case of local and global information. The file names are "Xn_alphaY_qZ.mat", where X is the multiple of 1024 that specifies the system size (e.g. X="02" corresponds to a network of size 2x1024) and Y is the value of alpha (0 or 1) and Z is the value of \beta. Each .mat file contains a matrix "dataq" of size 2x1000. This contains data for inf_\infty and vac_\infty for one value of \beta, for 1000 simulation runs.
 
 [2] data for Fig 4(b) and Fig 4(c) (folder "ER_16N")
 
-This folder contains simulations on ER network for a fixed system size (16*1024 agents) and over a range of values of alpha. The file names are "16n_alphaX_qY.mat", where X is the value of alpha (0 or 1) and Y is the value of \beta. Each .mat file contains a matrix "dataq" of size 2x1000. This contains data for inf_\infty and vac_\infty for one value of \beta, for 1000 simulation runs. An additional 1000 simulation runs are provided in the files with names "16n2_alphaX_qY.mat", where X is the value of alpha (0 or 1) and Y is the value of \beta.
+This folder contains simulations on ER network for a fixed system size (16x1024 agents) and over a range of values of alpha. The file names are "16n_alphaX_qY.mat", where X is the value of alpha (0 or 1) and Y is the value of \beta. Each .mat file contains a matrix "dataq" of size 2x1000. This contains data for inf_\infty and vac_\infty for one value of \beta, for 1000 simulation runs. An additional 1000 simulation runs are provided in the files with names "16n2_alphaX_qY.mat", where X is the value of alpha (0 or 1) and Y is the value of \beta.
