@@ -5,9 +5,9 @@ This repository contains data for Figs 2-4 of the manuscript:
 > Sharma A, Menon SN, Sasidevan V, Sinha S (2019) Epidemic prevalence information on social networks can mediate emergent collective outcomes in voluntary vaccine schemes. PLoS Comput Biol 15(5): e1006977. 
 > https://doi.org/10.1371/journal.pcbi.1006977
 
-The data is in the form of .mat files (which can be opened in MATLAB) available in separate folders.
+The data is in the form of .mat files (which can be opened in MATLAB).
 
-*Note*: Data for the empirical social newtorks used in Figures 2(a-b) and 3(d) are openly accessible as part of the published article: Banerjee, A., Chandrasekhar, A. G., Duflo, E. and Jackson, M. O. (2013). The diffusion of microfinance. Science, 341(6144), 1236498, DOI: 10.1126/science.1236498 and can be directly downloaded from https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21538
+*Note*: Data for the empirical social newtorks used in Figures 2(a-b) and 3(d) are openly accessible as part of the published article: Banerjee A, Chandrasekhar AG, Duflo E and Jackson MO (2013) The diffusion of microfinance. Science 341(6144): 1236498 https://doi.org/10.1126/science.1236498 and can be directly downloaded from https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21538
 
 Folder **Figure_2** contains
 
