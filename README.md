@@ -1,6 +1,6 @@
 # Epidemic prevalence information on social networks can mediate emergent collective outcomes in voluntary vaccine schemes
 
-[![Paper DOI : https://doi.org/10.1371/journal.pcbi.1006977](https://badgen.net/badge/PLOS%20Comp%20Bio%20DOI/10.1371%2Fjournal.pcbi.1006977)](https://doi.org/10.1371/journal.pcbi.1006977)
+[![Paper DOI : https://doi.org/10.1371/journal.pcbi.1006977](https://badgen.net/badge/PLOS%20Comput%20Bio%20DOI/10.1371%2Fjournal.pcbi.1006977)](https://doi.org/10.1371/journal.pcbi.1006977)
 
 This repository contains data for Figs 2-4 of the manuscript:
 
@@ -31,21 +31,21 @@ This folder contains files for simulations on the village network 55 for the cas
 
 1. Data for Fig 3(a) left panel (```TimeSeries_ER_alpha0.mat```)
 
-This file contains the matrix ```S_rec``` of size 885x6, which corresponds to time series data for single simulation on an ER network of size 1024 for the case &alpha; = 0. The 6 columns correspond to: (1) time t, (2) the number of susceptible agents at time t, (3) the number of infected agents at time t, (4) the number of recovered agents at time t, (5) the number of vaccinated agents at time t, and (6) the cumulative number of infected agents at time t.
+This file contains the matrix ```S_rec``` of size 885x6, which corresponds to time series data for single simulation on an Erd&#337;s-R&eacute;nyi network of size 1024 for the case &alpha; = 0. The 6 columns correspond to: (1) time t, (2) the number of susceptible agents at time t, (3) the number of infected agents at time t, (4) the number of recovered agents at time t, (5) the number of vaccinated agents at time t, and (6) the cumulative number of infected agents at time t.
 
 2. Data for Fig 3(a) right panel (```TimeSeries_ER_alpha1.mat```)
 
-This file contains the matrix ```S_rec``` of size 1103x6, which corresponds to time series data for single simulation on an ER network of size 1024 for the case &alpha; = 1. The 6 columns correspond to: (1) time t, (2) the number of susceptible agents at time t, (3) the number of infected agents at time t, (4) the number of recovered agents at time t, (5) the number of vaccinated agents at time t, and (6) the cumulative number of infected agents at time t.
+This file contains the matrix ```S_rec``` of size 1103x6, which corresponds to time series data for single simulation on an Erd&#337;s-R&eacute;nyi network of size 1024 for the case &alpha; = 1. The 6 columns correspond to: (1) time t, (2) the number of susceptible agents at time t, (3) the number of infected agents at time t, (4) the number of recovered agents at time t, (5) the number of vaccinated agents at time t, and (6) the cumulative number of infected agents at time t.
 
 3. Data for Fig 3(b) and Fig 3(c) (folder ```ER_network```)
 
-This folder contains files for simulations on ER networks of size 1024 for the case of local information (&alpha; = 0, ```loc_*.mat```) and global information (&alpha; = 1, ```glo_*.mat```). The file names are ```X_glsp_qY.mat```, where X is "loc" or "glo" and Y is the value of &beta;. Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
+This folder contains files for simulations on Erd&#337;s-R&eacute;nyi networks of size 1024 for the case of local information (&alpha; = 0, ```loc_*.mat```) and global information (&alpha; = 1, ```glo_*.mat```). The file names are ```X_glsp_qY.mat```, where X is "loc" or "glo" and Y is the value of &beta;. Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
 
 4. Data for Fig 3(d) (folder ```Kavg_ERN_KVN```)
 
-This folder contains files for simulations on ER networks of size 1024 as well as on empirical village networks.
+This folder contains files for simulations on Erd&#337;s-R&eacute;nyi networks of size 1024 as well as on empirical village networks.
 
-For the case of ER networks, the file names are ```glsp_qX_kY_alphaZ.mat```, where X is the value of &beta;, Y is the average degree of the network used and Z is the value of &alpha; (0 or 1). Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
+For the case of Erd&#337;s-R&eacute;nyi networks, the file names are ```glsp_qX_kY_alphaZ.mat```, where X is the value of &beta;, Y is the average degree of the network used and Z is the value of &alpha; (0 or 1). Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
 
 For the case of village networks, the file names are ```villX_qY_alphaZ.mat```, where X is the village id, Y is the value of &beta; and Z is the value of &alpha; (0 or 1). Each ```.mat``` file contains a matrix ```datavn``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
 
@@ -53,8 +53,8 @@ For the case of village networks, the file names are ```villX_qY_alphaZ.mat```, 
 
 1. Data for Fig 4(a) (folder ```ER_All_system_sizes```)
 
-This folder contains simulations on ER network for a range of system sizes (multiples of 1024), for the case of local and global information. The file names are ```Xn_alphaY_qZ.mat```, where X is the multiple of 1024 that specifies the system size (e.g. X="02" corresponds to a network of size 2x1024) and Y is the value of &alpha; (0 or 1) and Z is the value of &beta;. Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
+This folder contains simulations on Erd&#337;s-R&eacute;nyi networks for a range of system sizes (multiples of 1024), for the case of local and global information. The file names are ```Xn_alphaY_qZ.mat```, where X is the multiple of 1024 that specifies the system size (e.g. X="02" corresponds to a network of size 2x1024) and Y is the value of &alpha; (0 or 1) and Z is the value of &beta;. Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs.
 
 2. Data for Fig 4(b) and Fig 4(c) (folder ```ER_16N```)
 
-This folder contains simulations on ER network for a fixed system size (16x1024 agents) and over a range of values of alpha. The file names are ```16n_alphaX_qY.mat```, where X is the value of alpha (0 or 1) and Y is the value of &beta;. Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs. An additional 1000 simulation runs are provided in the files with names ```16n2_alphaX_qY.mat```, where X is the value of alpha (0 or 1) and Y is the value of &beta;.
+This folder contains simulations on Erd&#337;s-R&eacute;nyi networks for a fixed system size (16x1024 agents) and over a range of values of alpha. The file names are ```16n_alphaX_qY.mat```, where X is the value of alpha (0 or 1) and Y is the value of &beta;. Each ```.mat``` file contains a matrix ```dataq``` of size 2x1000. This contains data for inf<sub>&infin;</sub> and vac<sub>&infin;</sub> for one value of &beta;, for 1000 simulation runs. An additional 1000 simulation runs are provided in the files with names ```16n2_alphaX_qY.mat```, where X is the value of alpha (0 or 1) and Y is the value of &beta;.
